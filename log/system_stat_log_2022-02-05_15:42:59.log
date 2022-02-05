@@ -1,0 +1,20 @@
+10:13:00 [INFO] 
+System Details - 2022-02-05_15:42:59
+-----------------------------------
+Name: PMD RasPi
+Networks : {
+		enp0s3 : IPv4 : 172.18.30.42, IPv6 : fe80::cbee:6280:dc3a:ff53
+		enp0s8 : IPv4 : 172.18.150.21, IPv6 : fe80::e6e5:4c91:88db:a2b9
+		lo : IPv4 : 127.0.0.1, IPv6 : ::1
+	}
+Memory-Details : {
+		 Ram : 2.2 GB used / 8.3 GB
+		 Active : 3.4 GB
+		 Active(anon) : 1.8 GB
+		 Cached : 2.5 GB
+	}
+CPU-Load : 3.6176715% user, 0% nice, 3.4982295% system, 0% intr, 92.8841% idle 
+CPU-Temp : -1°C
+Up-Time : 91157s
+On-Time : 2022-02-04 08:53:44 UTC
+-----------------------------------

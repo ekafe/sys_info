@@ -1,0 +1,13 @@
+[package]
+name = "sys_info"
+version = "0.1.0"
+authors = ["mnkm<mail2ekafe@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+systemstat = "0.1.10"
+chrono = "0.4"
+simplelog = "^0.11.2"
+log = "0.4.14"
