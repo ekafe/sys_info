@@ -11,15 +11,18 @@ use remote_pc::RemotePC;
 
 fn main() {
 
-    let one_minute = Duration::from_secs(60);
+    let one_minute = Duration::from_secs(5);
 
     start_log();
 
-    loop{
+    // loop{
+    for _ in 0..5 {
         let mut pc1 = RemotePC::new("PMD RasPi");
         pc1.get_all();
         info!("\n{}",pc1);
         thread::sleep(one_minute);
     }
+
+    // }
 }
 

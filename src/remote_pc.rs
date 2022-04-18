@@ -193,7 +193,6 @@ impl std::fmt::Display for RemotePC {
     if address.len() == 0 { 
         return "-1".to_string()
     }
-
     let ip_v4_address = address[0].clone().addr;
     let ip_v6_address = address[1].clone().addr;
 
@@ -240,4 +239,11 @@ pub fn get_time_stamp()->String{
     let date_time = utc.format("%Y-%m-%d_%H:%M:%S").to_string();
     date_time
 }
+
+pub fn get_date()->String{
+    let utc: DateTime<Local> = Local::now();
+    let date = utc.format("%Y-%m-%d").to_string();
+    date
+}
+
 
