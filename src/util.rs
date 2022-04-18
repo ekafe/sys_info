@@ -13,7 +13,7 @@ pub fn start_log(){
 
     let date = get_date();
 
-    let dir = fs::create_dir_all(format!("./log/{date}"));
+    let dir = fs::create_dir_all(format!("log/{date}"));
     match dir{
         Ok(_) =>{},
         Err(err) =>{
